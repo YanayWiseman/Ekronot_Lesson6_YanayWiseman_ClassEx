@@ -14,7 +14,7 @@ int main()
 	std::cout << "Enter your password to continue:" << std::endl;
 	Password pwd;
 	std::cin >> pwd.value;
-
+	// password is ********
 	if (!strcmp(pwd.value, "********"))
 		pwd.incorrect = false;
 

@@ -3,7 +3,7 @@
 
 class Shape 
 {
-private:
+protected:
 	float _area;
 	float _perimeter;
 

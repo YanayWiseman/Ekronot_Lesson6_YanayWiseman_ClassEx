@@ -4,6 +4,7 @@
 
 Triangle::Triangle(float base, float height) : _base(base), _height(height)
 {
+	this->_area = get_area();
 }
 
 float Triangle::get_area(bool has_depth) const
